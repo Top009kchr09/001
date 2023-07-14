@@ -4156,7 +4156,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Exps.ImagePointX,
 		C3.Plugins.Sprite.Exps.ImagePointY,
 		C3.Plugins.Sprite.Acts.SetOpacity,
-		C3.Plugins.Sprite.Exps.Opacity
+		C3.Plugins.Sprite.Exps.Opacity,
+		C3.Plugins.Sprite.Cnds.CompareOpacity,
+		C3.Plugins.System.Acts.GoToLayout
 	];
 };
 self.C3_JsPropNameTable = [
@@ -4191,7 +4193,9 @@ self.C3_JsPropNameTable = [
 	{анимация: 0},
 	{Пуля: 0},
 	{Спрайт: 0},
-	{ТайловыйФон3: 0}
+	{ТайловыйФон3: 0},
+	{Спрайт2: 0},
+	{Спрайт3: 0}
 ];
 }
 
